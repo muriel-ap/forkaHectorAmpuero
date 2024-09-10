@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/*  BARRA DE NAVEGACIÓN*/
 .navbar {
-    background-color: #194867;
+    background-color: #002f7b;
+    padding: 0;
 }
 
 .navbar-brand {
     font-family: "montserrat";
     font-weight: 800;
     color: white;
-    font-size: xx-large;
+    font-size: 300%;
 }
 
 .boton {
@@ -21,7 +23,36 @@
 .boton-link {
     padding-left: 50px;
     padding-right: 50px;
-    color: #194867;
+    color: #002f7b;;
     text-decoration: none;
+}
 
+.boton:hover {
+    background-color: #3972ce;
+    
+}
+
+.boton-link:hover{
+    color: white;
+}
+
+/*  PORTADA*/
+
+
+.header {
+    background-image: url(../img/imagen-portada2.jpg);
+    background-size: cover;
+}
+
+h1 {
+    padding: 6em;
+    padding-top: 6em;
+    padding-bottom: 0;
+    color: white;
+    font-size: 50px;
+}
+
+.header > img {
+    padding-left: 16em;
+    padding-bottom: 18em;
 }
