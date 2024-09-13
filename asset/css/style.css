@@ -62,7 +62,27 @@
 
 /*SECTION MIS PROYECTOS*/
 
+.row {
+    border: 1px solid red;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.col {
+    border: 1px solid violet;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .card {
     border:  1px solid green;
-    margin-top: 5em;
+    width: 100%;
+}
+
+section > h2 {
+    text-align: center;
+    margin-top: 20px;
 }
