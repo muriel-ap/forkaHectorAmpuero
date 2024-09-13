@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*  BARRA DE NAVEGACIÓN*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar {
     background-color: #002f7b;
     padding: 0;
@@ -37,22 +44,25 @@
 }
 
 /*PORTADA*/
-.portada {
-    background-image: url('../img/imagen-portada2.jpg');
+.encabezado-img {
+    background-image:url(../img/imagen-portada2.jpg) ;
+    height: 500px;
     background-size: cover;
-    background-position: center;
-    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagen-portada {
-    max-width: 100%;
-    height: auto;
-}
-
-h1 {
-    padding-top: 4em;
-    padding-left: 10px;
+.encabezado-img > h1 {
     color: white;
-    font-size: 50px;
-    
+}
+
+
+
+/*SECTION MIS PROYECTOS*/
+
+.card {
+    border:  1px solid green;
+    margin-top: 5em;
 }
