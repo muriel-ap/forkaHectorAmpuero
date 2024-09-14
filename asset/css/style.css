@@ -62,14 +62,14 @@
 
 /*SECTION MIS PROYECTOS*/
 
-.row {
+.proyecto {
     gap: 50px;
     display: flex;
     justify-content: center;
     margin: 0;
 }
 
-.col {
+.tarjeta {
     gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -108,5 +108,47 @@ section > h2 {
 }
 
 .btn:hover {
-    background-color: #3972ce;
+    background-color: #3972ce; 
 }
+
+
+/*SECTION SOBRE MI*/
+
+.card-mi {
+    width: 22em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-mi > img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+.card-mi > p {
+    color: white;
+    font-family: Verdana;
+
+}
+
+.content-mi {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+
+.proyecto-mi {
+    width: 100%;
+    background-color: #002f7b;
+}
+
+.proyecto-mi > h2 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
