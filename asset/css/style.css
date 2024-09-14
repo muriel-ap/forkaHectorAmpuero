@@ -63,7 +63,6 @@
 /*SECTION MIS PROYECTOS*/
 
 .row {
-    border: 1px solid red;
     gap: 50px;
     display: flex;
     justify-content: center;
@@ -71,18 +70,28 @@
 }
 
 .col {
-    border: 1px solid violet;
     gap: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 .card {
-    border:  1px solid green;
     width: 100%;
 }
 
 section > h2 {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #002f7b;
+    color: white;
+}
+
+.card-body {
+    background-color: #002f7b;
+    color: white;
+}
+
+.card-body > p {
     margin-top: 20px;
 }
