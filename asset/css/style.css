@@ -72,12 +72,18 @@
 .col {
     gap: 50px;
     margin-top: 50px;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
+      
 }
 
 .card {
     width: 100%;
 }
+
+.card > img {
+    padding: 9px;
+}
+
 
 section > h2 {
     text-align: center;
@@ -94,4 +100,13 @@ section > h2 {
 
 .card-body > p {
     margin-top: 20px;
+    font-size: small;
+}
+
+.btn {
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: #3972ce;
 }
