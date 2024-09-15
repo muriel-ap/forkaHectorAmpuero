@@ -183,7 +183,7 @@ h3 {
     height: 100%; /* Asegúrate de que el contenedor tenga una altura para centrar */
 }
 
-
+/*FOOTER*/
 
 footer {
     padding: 20px;
@@ -193,4 +193,86 @@ footer {
 footer > p {
     margin: 0;
     padding-top: 5px;
+}
+
+
+/*PAGINA CONTACTO*/
+
+
+ .body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana;
+    background-image: url(../img/imagen-portada2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+ }
+
+
+ .general-form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 9px ;
+    text-align: center;
+    border: 1px solid #fafafa10;
+ }
+
+ .glass-effect {
+    background: linear-gradient(135deg,rgba (255,255,255,0.1),rgba (255,255,255,0));
+    backdrop-filter: blur(10px);
+ }
+
+
+ .general-form > h2 {
+    padding-bottom: 30px;
+    width: 500px;
+    color: white;
+    
+ }
+
+.form-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+.form-card > label {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-card > input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.form-card > textarea {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    outline: none;
+}
+
+.content-form > button {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+}
+
+.btn-back {
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
 }
