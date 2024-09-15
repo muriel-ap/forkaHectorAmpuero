@@ -7,6 +7,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -158,24 +159,38 @@ section > h2 {
 /*SECTION MIS CERTIFICADOS*/
 
 .content-cert {
-    display: flex;
-    justify-content: center;
-    border: 1px solid red;
     background-color:black;
-
+    padding: 40px;
+    margin: 0;
 }
 
-.content-card  {
-    width: 60em;
-    margin: 20px;
-}
 
 .carousel-item > img {
     border-radius: 9px;
+    width: 80%;
 }
 
 h3 {
-    padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
     color: white;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Asegúrate de que el contenedor tenga una altura para centrar */
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0;
+    padding-top: 5px;
 }
