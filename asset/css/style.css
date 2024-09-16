@@ -22,6 +22,7 @@
     font-size: 300%;
 }
 
+
 .boton {
     padding: 10px;
     margin-right: 30px;
@@ -37,8 +38,7 @@
 }
 
 .boton:hover {
-    background-color: #3972ce;
-    
+    background-color: #1b1b1b;   
 }
 
 .boton-link:hover{
@@ -48,7 +48,7 @@
 /*PORTADA*/
 .encabezado-img {
     background-image:url(../img/imagen-portada2.jpg) ;
-    height: 500px;
+    height: 70vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -75,11 +75,11 @@
     gap: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
-      
 }
 
 .card {
     width: 100%;
+    box-shadow: 1px 1px 30px;
 }
 
 .card > img {
@@ -110,7 +110,7 @@ section > h2 {
 }
 
 .btn:hover {
-    background-color: #3972ce; 
+    background-color: black; 
 }
 
 
