@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-/*  BARRA DE NAVEGACIÓN*/
+/*BARRA DE NAVEGACIÓN*/
 
 *{
     margin: 0;
@@ -38,7 +36,7 @@
 }
 
 .boton:hover {
-    background-color: #1b1b1b;   
+    background-color: #1b1b1b;  
 }
 
 .boton-link:hover{
@@ -193,6 +191,12 @@ footer {
 footer > p {
     margin: 0;
     padding-top: 5px;
+}
+
+.derechos {
+    padding-top: 20px;
+    margin: 0;
+    font-size: small;
 }
 
 
