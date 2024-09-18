@@ -14,7 +14,7 @@
 }
 
 .navbar-brand {
-    font-family: "montserrat";
+    font-family: "montserrat", Arial, Helvetica, sans-serif;
     font-weight: 800;
     color: white;
     font-size: 300%;
@@ -36,7 +36,7 @@
 }
 
 .boton:hover {
-    background-color: #1b1b1b;  
+    background-color: #1b1b1b;
 }
 
 .boton-link:hover{
@@ -108,7 +108,7 @@ section > h2 {
 }
 
 .btn:hover {
-    background-color: black; 
+    background-color: black;
 }
 
 
@@ -128,7 +128,7 @@ section > h2 {
 
 .card-mi > p {
     color:black;
-    font-family: Verdana;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
 
 }
 
@@ -209,7 +209,7 @@ footer > p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Verdana;
+    font-family: "Verdana", Arial, Helvetica, sans-serif;
     background-image: url(../img/imagen-portada2.jpg);
     background-size: cover;
     background-position: center;
@@ -235,7 +235,6 @@ footer > p {
     padding-bottom: 30px;
     width: 500px;
     color: white;
-    
  }
 
 .form-card {
